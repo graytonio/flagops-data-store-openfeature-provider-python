@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "openfeature-provider-flagops"
+version = "0.1.0"
+description = ""
+authors = ["Grayton Ward <graytonio.ward@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "flagops_openfeature" }]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openfeature-sdk = "^0.7.0"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
